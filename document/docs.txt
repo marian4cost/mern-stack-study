@@ -1,0 +1,9 @@
+ROTAS
+    Método:
+        GET: vizualizar ite
+        POST: criar item
+        PUT: atualizar itens
+        PATH: atualizar um item
+        DELETE: apagar itens
+    Nome: o parametro passado na rota 
+    Função (callback): uma função anonima que chama a resposta 
