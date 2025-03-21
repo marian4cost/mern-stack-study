@@ -1,6 +1,6 @@
 const route = require("express").Router()
 const useController = require("../controllers/user.controller")
 
-route.get("/", useController.soma)
+route.post("/", useController.create)
 
 module.exports = route
